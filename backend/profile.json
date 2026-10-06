@@ -1,0 +1,92 @@
+{
+    "name": "Abhi Akhaja",
+    "headline": "Python full stack developer building LLM-powered applications",
+    "location": "Surat, Gujarat, India",
+    "skills": {
+        "languages": [
+            "Python",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "backend": [
+            "FastAPI",
+            "Flask",
+            "JWT authentication",
+            "MySQL"
+        ],
+        "frontend": [
+            "React"
+        ],
+        "devops": [
+            "Docker"
+        ],
+        "ai": [
+            "LLM APIs",
+            "RAG",
+            "LangChain",
+            "LangGraph",
+            "Chroma",
+            "structured output",
+            "tool calling"
+        ],
+        "data_and_automation": [
+            "Pandas",
+            "NumPy",
+            "Selenium"
+        ],
+        "marketing": [
+            "Meta Ads",
+            "GA4",
+            "GTM",
+            "CRO",
+            "SEO",
+            "WordPress"
+        ]
+    },
+    "projects": [
+        {
+            "name": "WhatsApp Lead Qualification Bot",
+            "stack": [
+                "Flask",
+                "MySQL",
+                "React",
+                "Twilio",
+                "Gemini API",
+                "Docker"
+            ],
+            "summary": "Classifies open-text WhatsApp replies into structured categories with the Gemini API, then matches and distributes leads across sales agents. deployed and live."
+        },
+        {
+            "name": "Fund Reminder Web App",
+            "stack": [
+                "FastAPI",
+                "MySQL",
+                "React",
+                "JWT",
+                "Selenium"
+            ],
+            "summary": "Monitors ad account balances and sends WhatsApp alerts before campaigns run out of funds. Auth, full CRUD, React dashboard."
+        },
+        {
+            "name": "AI Job Application Agent",
+            "stack": [
+                "FastAPI",
+                "MySQL",
+                "React",
+                "LLM API",
+                "LangGraph"
+            ],
+            "summary": "Analyzes job descriptions, extracts requirements, scores candidate fit against a resume and skills profile, identifies skill gaps, and generates tailored outreach message. React dashboard displays jobs with sortable fit scores and application insights."
+        }
+    ],
+    "experience": [
+        {
+            "role": "Campaign Manager",
+            "company": "Monkey Ads (performance marketing agency)",
+            "period": "Feb 2026 - present"
+        }
+    ],
+    "education": "BBA in Marketing, SDJ International College, 2022-2025",
+    "differentiator": "Marketing and customer-facing background alongside full-stack and LLM engineering skills."
+}

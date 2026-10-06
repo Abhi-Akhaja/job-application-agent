@@ -1,0 +1,78 @@
+AI Engineer / AI Developer – Intern & Fresher
+
+Company: Wizcoder AI Labs Pvt. Ltd.
+Location: Surat, Gujarat
+Experience: Internship / Fresher
+Employment Type: Full-Time / Internship
+Work Mode: On-Site
+
+About the Role
+
+We are looking for an enthusiastic AI Engineer / AI Developer – Intern or Fresher to join our team in Surat.
+
+This opportunity is suitable for candidates who have a strong interest in Artificial Intelligence, Generative AI, LLMs, AI agents, and automation and want to work on practical AI-powered applications.
+
+You will get an opportunity to work with modern AI models, APIs, tools, and workflows while contributing to real projects.
+
+Key Responsibilities:
+
+Assist in building and testing AI-powered features and applications.
+Work with AI model APIs such as OpenAI, Anthropic Claude, Google Gemini, and similar platforms.
+Support the development of chatbots, AI agents, automation workflows, and Generative AI features.
+Write clean and well-documented Python or JavaScript code.
+Test, debug, and improve AI prompts and workflows for accuracy and reliability.
+Assist in integrating AI features into existing products, websites, and applications.
+Document experiments, findings, and technical processes.
+Participate in daily stand-ups, sprint planning, and code reviews.
+Stay updated with new AI tools, models, and techniques relevant to ongoing projects.
+
+Required Qualifications:
+
+Currently pursuing B.Tech / B.E. / BCA / MCA / M.Sc. in Computer Science, IT, AI, or a related field.
+Final-year students are preferred.
+Solid understanding of Python or JavaScript programming.
+Basic understanding of how AI models and LLMs work, including inputs, prompts, outputs, and APIs.
+Understanding of Data Structures, Algorithms, and OOP concepts.
+Comfortable working with APIs and JSON data.
+
+Preferred / Good-to-Have Skills:
+
+Experience using AI tools such as ChatGPT, Claude, Gemini, or similar tools for building projects.
+Exposure to Prompt Engineering or building AI agents/workflows.
+Familiarity with LangChain, LlamaIndex, n8n, or Make.
+Knowledge of SQL and databases.
+Familiarity with Git/GitHub.
+Personal or academic AI projects, hackathon experience, or open-source contributions.
+Basic understanding of AWS, GCP, or Azure.
+Knowledge of REST APIs and frameworks such as Flask, FastAPI, or Node.js.
+
+Who Can Apply?
+
+AI/ML or AI/Developer freshers
+Final-year students
+Recent graduates
+Candidates with relevant academic or personal AI projects
+Candidates with internship experience in AI/ML or Generative AI
+
+Location Requirement:
+
+This is an on-site opportunity in Surat, Gujarat.
+
+Candidates who are currently based in Surat or are willing to work on-site in Surat are encouraged to apply.
+
+What We Value:
+
+We are looking for candidates who are curious, willing to learn, interested in new AI technologies, and excited to work on practical AI projects.
+
+If you have built any AI-related project, chatbot, AI agent, automation workflow, or GenAI project, please mention it in your resume/application.
+
+Apply now and start your journey in AI with Wizcoder AI Labs Pvt. Ltd.
+
+Pay: ₹7,000.00 - ₹8,000.00 per month
+
+Work Location: In person
+
+JSON
+{
+  "job_description": "AI Engineer / AI Developer – Intern & Fresher\n\nCompany: Wizcoder AI Labs Pvt. Ltd.\nLocation: Surat, Gujarat\nExperience: Internship / Fresher\nEmployment Type: Full-Time / Internship\nWork Mode: On-Site\n\nAbout the Role\n\nWe are looking for an enthusiastic AI Engineer / AI Developer – Intern or Fresher to join our team in Surat.\n\nThis opportunity is suitable for candidates who have a strong interest in Artificial Intelligence, Generative AI, LLMs, AI agents, and automation and want to work on practical AI-powered applications.\n\nYou will get an opportunity to work with modern AI models, APIs, tools, and workflows while contributing to real projects.\n\nKey Responsibilities:\n\nAssist in building and testing AI-powered features and applications.\nWork with AI model APIs such as OpenAI, Anthropic Claude, Google Gemini, and similar platforms.\nSupport the development of chatbots, AI agents, automation workflows, and Generative AI features.\nWrite clean and well-documented Python or JavaScript code.\nTest, debug, and improve AI prompts and workflows for accuracy and reliability.\nAssist in integrating AI features into existing products, websites, and applications.\nDocument experiments, findings, and technical processes.\nParticipate in daily stand-ups, sprint planning, and code reviews.\nStay updated with new AI tools, models, and techniques relevant to ongoing projects.\n\nRequired Qualifications:\n\nCurrently pursuing B.Tech / B.E. / BCA / MCA / M.Sc. in Computer Science, IT, AI, or a related field.\nFinal-year students are preferred.\nSolid understanding of Python or JavaScript programming.\nBasic understanding of how AI models and LLMs work, including inputs, prompts, outputs, and APIs.\nUnderstanding of Data Structures, Algorithms, and OOP concepts.\nComfortable working with APIs and JSON data.\n\nPreferred / Good-to-Have Skills:\n\nExperience using AI tools such as ChatGPT, Claude, Gemini, or similar tools for building projects.\nExposure to Prompt Engineering or building AI agents/workflows.\nFamiliarity with LangChain, LlamaIndex, n8n, or Make.\nKnowledge of SQL and databases.\nFamiliarity with Git/GitHub.\nPersonal or academic AI projects, hackathon experience, or open-source contributions.\nBasic understanding of AWS, GCP, or Azure.\nKnowledge of REST APIs and frameworks such as Flask, FastAPI, or Node.js.\n\nWho Can Apply?\n\nAI/ML or AI/Developer freshers\nFinal-year students\nRecent graduates\nCandidates with relevant academic or personal AI projects\nCandidates with internship experience in AI/ML or Generative AI\n\nLocation Requirement:\n\nThis is an on-site opportunity in Surat, Gujarat.\n\nCandidates who are currently based in Surat or are willing to work on-site in Surat are encouraged to apply.\n\nWhat We Value:\n\nWe are looking for candidates who are curious, willing to learn, interested in new AI technologies, and excited to work on practical AI projects.\n\nIf you have built any AI-related project, chatbot, AI agent, automation workflow, or GenAI project, please mention it in your resume/application.\n\nApply now and start your journey in AI with Wizcoder AI Labs Pvt. Ltd.\n\nPay: ₹7,000.00 - ₹8,000.00 per month\n\nWork Location: In person"
+}
