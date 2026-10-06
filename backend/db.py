@@ -1,7 +1,7 @@
 import sqlite3
 import os
 
-# Locally this defaults to a file in the project folder. On Railway, set DB_PATH to a path inside a mounted volume (e.g. /data/jobs.db) so the database survives redeploys instead of living on the container's throwaway disk.
+# Locally this defaults to a file in the project folder. If plan to Host, set DB_PATH to a path inside a mounted volume (e.g. /data/jobs.db) so the database survives redeploys instead of living on the container's throwaway disk.
 DB_PATH = os.getenv("DB_PATH", "jobs.db")
 
 def init_db():
