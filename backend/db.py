@@ -1,3 +1,78 @@
+import os
+import psycopg2
+from psycopg2.extras import RealDictCursor
+
+# Neon gives this connection string from its dashboard
+DATABASE_URL = os.environ["DATABASE_URL"]
+
+
+def get_conn():
+    return psycopg2.connect(DATABASE_URL, cursor_factory=RealDictCursor)
+
+
+def init_db():
+    conn = get_conn()
+    with conn.cursor() as cur:
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS jobs (
+                id SERIAL PRIMARY KEY,
+                company TEXT,
+                title TEXT,
+                location TEXT,
+                fit_score INTEGER,
+                status TEXT,
+                job_description TEXT,
+                requirements_json TEXT,
+                analysis_json TEXT,
+                outreach_json TEXT,
+                created_at TIMESTAMP DEFAULT NOW()
+            )
+        """)
+    conn.commit()
+    conn.close()
+
+
+def save_job(result: dict) -> int:
+    conn = get_conn()
+    req = result["requirements"]
+    outreach = result.get("outreach")
+    with conn.cursor() as cur:
+        cur.execute(
+            """INSERT INTO jobs
+               (company, title, location, fit_score, status, job_description,
+                requirements_json, analysis_json, outreach_json)
+               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+               RETURNING id""",
+            (
+                req.company,
+                req.title,
+                req.location,
+                result["fit_score"],
+                result["status"],
+                result["job_description"],
+                req.model_dump_json(),
+                result["analysis"].model_dump_json(),
+                outreach.model_dump_json() if outreach else None,
+            ),
+        )
+        job_id = cur.fetchone()["id"]
+    conn.commit()
+    conn.close()
+    return job_id
+
+
+def list_jobs() -> list[dict]:
+    conn = get_conn()
+    with conn.cursor() as cur:
+        cur.execute("SELECT * FROM jobs ORDER BY fit_score DESC")
+        rows = cur.fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
+'''  
+With SQLite
+
 import sqlite3
 import os
 
@@ -58,6 +133,8 @@ def list_jobs() -> list[dict]:
     rows = conn.execute("SELECT * FROM jobs ORDER BY fit_score DESC").fetchall()      # [Row(job 1),Row(job 2),Row(job 3)]
     conn.close()
     return [dict(r) for r in rows]
+
+'''
 
 '''
 rows = [

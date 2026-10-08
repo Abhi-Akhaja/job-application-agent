@@ -1,14 +1,12 @@
 import json
+from dotenv import load_dotenv
+load_dotenv()
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
 from graph import graph
 from db import init_db, save_job, list_jobs
-
-from dotenv import load_dotenv
-load_dotenv()
 
 app = FastAPI()
 
